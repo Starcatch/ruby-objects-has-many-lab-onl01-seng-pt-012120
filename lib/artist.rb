@@ -10,6 +10,7 @@ class Artist
   end
   
   def songs
+    # has many songs
     Song.all.select do |song|
     song.artist = self
   end 
