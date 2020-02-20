@@ -11,6 +11,8 @@ class Song
   end
 
   def artist_name
+    # knows the name of its artist
+    #returns nil if the song does not have an artist
     if !@artist
     else
       @artist.name
